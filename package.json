@@ -1,0 +1,11 @@
+{
+  "name": "wines",
+  "version": "0.1.0",
+  "description": "types of wine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
