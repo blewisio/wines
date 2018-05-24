@@ -29,7 +29,7 @@ const wines = [
 		name: 'Malbec',
 		style: styles.RED,
 		isSparkling: false
-		 dry: true, fruity: true },
+	},
 	{
 		name: 'Petite Sirah',
 		style: styles.RED,
