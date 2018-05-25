@@ -81,8 +81,20 @@ const toName = wine => {
     return wine.name;
 };
 
+const all = () => {
+    return wines;
+};
+
+const list = () => {
+    return wines.map(toName);
+};
+
 const reds = () => {
     return wines.filter(wine => wine.style === styles.RED).map(toName);
+};
+
+const roses = () => {
+    return wines.filter(wine => wine.style === styles.ROSE).map(toName);
 };
 
 const whites = () => {
@@ -90,7 +102,9 @@ const whites = () => {
 };
 
 module.exports = {
-    list: () => wines,
-    reds: reds,
-    whites: whites
+    all,
+    list,
+    reds,
+    roses,
+    whites
 };
