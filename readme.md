@@ -24,6 +24,28 @@ Otherwise:
 npm install wines --save
 ```
 
+## Functions
+
+#### `wines.all()`
+
+Returns all wines and their data.
+
+#### `wines.list()`
+
+Returns all wines (names only).
+
+#### `wines.reds()`
+
+Returns the red wines (names only).
+
+#### `wines.roses()`
+
+Returns the rosé wines (names only).
+
+#### `wines.whites()`
+
+Returns the white wines (names only).
+
 ## License
 
 ISC
