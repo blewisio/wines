@@ -2,7 +2,7 @@
 
 types of wine
 
-```
+```javascript
 const wines = require('wines');
 
 console.log(wines.reds());
